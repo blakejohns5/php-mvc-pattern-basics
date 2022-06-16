@@ -1,20 +1,12 @@
 <?php
 
 
-include_once 'baseConstants.php';
+// store database settings / values for named variables
 
-// controllers
-DEFINE ("CONTROLLERS", BASE_PATH . '/controllers/');
+define('HOST', 'localhost');
+define('DB', 'mvc_basics');
+define('USER', 'root');
+define('PASSWORD', '');
+define('CHARSET', 'utf8mb4');
 
-// views
-DEFINE ("VIEWS", BASE_PATH . '/views/');
-
-// models
-DEFINE ("MODELS", BASE_PATH . '/models/');
-
-// resources
-DEFINE ("RESOURCES", BASE_PATH . '/resources/');
-
-
-echo CONTROLLERS . '<br><br>' . VIEWS . '<br><br>' . MODELS . '<br><br>' . RESOURCES;
 

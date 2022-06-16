@@ -5,7 +5,9 @@
 
 // store path from full directory
 $documentRoot = getcwd();
-define("BASE_PATH", $documentRoot);
+// ECHO $documentRoot;
+// echo '<br><br>';
+define('BASE_PATH', $documentRoot);
 
 // store path from local directory to filename
 $uri = $_SERVER['REQUEST_URI'];
